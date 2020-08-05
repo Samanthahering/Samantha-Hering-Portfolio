@@ -36,7 +36,7 @@ class App extends Component {
         return(
             <React.Fragment>
                 <Navbar drawerClickHandler={this.drawerToggle}/>
-                <SideDrawer show={this.state.sideDrawerOpen}/>
+                <SideDrawer show={this.state.sideDrawerOpen} click={this.backdropClickHandler}/>
                 {backdrop}
                     <Router>
                         <Switch>

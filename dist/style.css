@@ -149,6 +149,24 @@ body{
     text-decoration: none;
 }
 
+.exit-btn{
+    /* background-color: yellow; */
+    position: fixed;
+    right: 3%;
+    top: 1% 
+}
+
+.close-x{
+    color: gray;
+    cursor: pointer;
+}
+
+.close-x:hover{
+    color: white;
+    background-color: gray;
+    padding: 1px;
+}
+
 @media(max-width: 768px){
     .navbar-links{
         display: none;
