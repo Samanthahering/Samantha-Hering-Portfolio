@@ -11,8 +11,8 @@ class App extends Component {
         this.state = {
             sideDrawerOpen: false
         }
-        this.drawerToggle = this.drawerToggle.bind(this)
-
+        this.drawerToggle = this.drawerToggle.bind(this);
+        this.backdropClickHandler = this.backdropClickHandler.bind(this)
     }
    
     drawerToggle(){
@@ -20,18 +20,23 @@ class App extends Component {
             sideDrawerOpen: !this.state.sideDrawerOpen
         })
     }
+
+    backdropClickHandler(){
+        this.setState({
+            sideDrawerOpen: false
+        })
+
+    }
     render(){
-        let sideDrawer;
         let backdrop;
 
         if(this.state.sideDrawerOpen){
-            sideDrawer = <SideDrawer/>;
-            backdrop = <Backdrop/>
+            backdrop = <Backdrop click={this.backdropClickHandler}/>
         }
         return(
             <React.Fragment>
-                <Navbar/>
-                {sideDrawer}
+                <Navbar drawerClickHandler={this.drawerToggle}/>
+                <SideDrawer show={this.state.sideDrawerOpen}/>
                 {backdrop}
                     <Router>
                         <Switch>

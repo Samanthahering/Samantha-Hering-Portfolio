@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Backdrop = props => (
-    <div className='backdrop'></div>
+    <div className='backdrop' onClick={props.click}></div>
 
 
 )
