@@ -8,6 +8,10 @@ class Home extends Component {
             <h1>Samantha Hering</h1>
             <h2>Software Developer</h2>
             <Button className='landing-page-btn' variant="outline-secondary" size='lg'>Resume</Button>
+            <div className='icons'>
+            <a href='https://www.linkedin.com/in/samanthahering/' target='_blank'><i class="fab fa-linkedin"></i></a>
+            <a href='https://github.com/Samanthahering' target='_blank'><i class="fab fa-github"></i></a>
+            </div>
         </div>
         )
     }
