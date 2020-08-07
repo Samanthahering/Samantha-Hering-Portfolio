@@ -29,12 +29,32 @@ body{
     background-size: cover;
     background-position: center;
     /* padding: 0 20px; */
-    padding-top: 64px;
+    padding-top: 70px;
     color: #827081;
+}
+
+.landing-pg-name{
+    position: relative;
+    animation: name;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+.landing-pg-job-title{
+    position: relative;
+    animation: title;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 .landing-page-btn{
     margin: 2%;
+    display: inline-block;
+    opacity: 0;
+    animation: button;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
 }
 
 .icons{
@@ -201,53 +221,32 @@ body{
 }
 
 /* ABOUT PAGE */
+.page-title{
+    text-align: center;
+}
+.about-info{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+
 .picture-of-myself{
     max-width: 100%;
     height: auto;
-    /* border: 1px solid #ddd;
-    border-radius: 4px; */
+    border-radius: 100%;
     padding: 5px;
     width: 20%;
 }
 
-/* Experiment */
-.landing-pg-name{
-    position: relative;
-    animation: name;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+.paragraph-about-myself{
+    font-size: 1.25rem;
+    padding-left: 15px;
+
 }
 
-.landing-pg-job-title{
-    position: relative;
-    animation: title;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
 
-@keyframes name{
-    0%{
-       opacity: 0.2;
-       right: -350px;
 
-    }
-    100%{
-        opacity: 1;
-        right: 0
-    }
-}
 
-@keyframes title{
-    0%{
-       opacity: 0.2;
-       left: -350px;
-
-    }
-    100%{
-        opacity: 1;
-        left: 0
-    }
-}
 
 
 
@@ -256,6 +255,20 @@ body{
 @media(max-width: 768px){
     .navbar-links{
         display: none;
+    }
+}
+
+@media(max-width: 900px){
+    .about-info{
+        flex-direction: column;
+        background-color: #827081;
+        margin: 5%;
+    }
+    .paragraph-about-myself{
+        color: black
+    }
+    .picture-of-myself{
+        width: 35%
     }
 }
 
@@ -272,4 +285,35 @@ body{
 }
 
 
+/* KEYFRAMES */
+@keyframes name{
+    0%{
+       opacity: 0.2;
+       right: -350px;
+    }
+    100%{
+        opacity: 1;
+        right: 0
+    }
+}
 
+@keyframes title{
+    0%{
+       opacity: 0.2;
+       left: -350px;
+    }
+    100%{
+        opacity: 1;
+        left: 0
+    }
+}
+
+@keyframes button{
+    0%{
+        opacity: 0;
+      
+    }
+    100%{
+        opacity: 1;
+    }
+}
