@@ -22,13 +22,6 @@ body{
     padding: 0 20px;
     color: #827081;
 }
-/* #landing-page{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #827081; 
-} */
 
 .sub-landing-pgs{
     background-image: url('./flower-background.jpg');
@@ -38,7 +31,6 @@ body{
     /* padding: 0 20px; */
     padding-top: 64px;
     color: #827081;
-
 }
 
 .landing-page-btn{
@@ -208,6 +200,59 @@ body{
     padding: 1px;
 }
 
+/* ABOUT PAGE */
+.picture-of-myself{
+    max-width: 100%;
+    height: auto;
+    /* border: 1px solid #ddd;
+    border-radius: 4px; */
+    padding: 5px;
+    width: 20%;
+}
+
+/* Experiment */
+.landing-pg-name{
+    position: relative;
+    animation: name;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+.landing-pg-job-title{
+    position: relative;
+    animation: title;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes name{
+    0%{
+       opacity: 0.2;
+       right: -350px;
+
+    }
+    100%{
+        opacity: 1;
+        right: 0
+    }
+}
+
+@keyframes title{
+    0%{
+       opacity: 0.2;
+       left: -350px;
+
+    }
+    100%{
+        opacity: 1;
+        left: 0
+    }
+}
+
+
+
+
+/* MEDIA QUERIES */
 @media(max-width: 768px){
     .navbar-links{
         display: none;
@@ -225,5 +270,6 @@ body{
         margin-left: 0;
     }
 }
+
 
 
