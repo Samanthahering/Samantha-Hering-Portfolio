@@ -7,13 +7,13 @@ const Navbar = props => (
             <div className='navbar-toggle-button'>
                 <DrawerToggleBtn click={props.drawerClickHandler}/>
             </div>
-            <div className='navbar-logo'><a href='/'>THE LOGO</a></div>
+            <div className='navbar-logo'><a href='/'>Samantha Hering</a></div>
             <div className='spacer'/>
             <div className='navbar-links'>
                 <ul>
-                    <li><a href='/'>One</a></li>
-                    <li><a href='/'>Two</a></li>
-                    <li><a href='/'>Three</a></li>
+                    <li><a href='/about'>About</a></li>
+                    <li><a href='/projects'>Projects</a></li>
+                    <li><a href='/contact'>Contact</a></li>
                 </ul>
             </div>
         </nav>

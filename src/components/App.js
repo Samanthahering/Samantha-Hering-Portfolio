@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Navbar from './Navbar'
 import Home from './Home'
+import About from './About'
 import SideDrawer from './SideDrawer'
 import Backdrop from './Backdrop'
+import Projects from './Projects'
+import Contact from './Contact'
 
 class App extends Component {
     constructor(){
@@ -41,6 +44,9 @@ class App extends Component {
                     <Router>
                         <Switch>
                             <Route exact path='/' component={Home}/>
+                            <Route path='/about' component={About}/>
+                            <Route path='/projects' component={Projects}/>
+                            <Route path='/contact' component={Contact}/>
                         </Switch>
                     </Router>
             </React.Fragment>

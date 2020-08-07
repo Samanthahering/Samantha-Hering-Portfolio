@@ -11,9 +11,9 @@ const SideDrawer = props => {
                     <h6 className='close-x' onClick={props.click}>X</h6>
                 </div>
                 <ul>
-                    <li><a href='/'>One</a></li>
-                    <li><a href='/'>Two</a></li>
-                    <li><a href='/'>Three</a></li>
+                    <li><a href='/about'>About</a></li>
+                    <li><a href='/projects'>Projects</a></li>
+                    <li><a href='/contact'>Contact</a></li>
                 </ul>
             </nav>
 
