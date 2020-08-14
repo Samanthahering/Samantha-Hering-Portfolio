@@ -23,15 +23,22 @@ body{
     color: #827081;
 }
 
-.sub-landing-pgs{
+/* attempt with plain gray background */
+/* .sub-landing-pgs{
+    background-color: #cdcdd0;
+    height: 100vh;
+    padding-top: 70px;
+    color: #827081;
+} */
+
+  .sub-landing-pgs{
     background-image: url('./flower-background.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
-    /* padding: 0 20px; */
     padding-top: 70px;
-    color: #827081;
-}
+    color: #827081; 
+}  
 
 .landing-pg-name{
     position: relative;
@@ -42,7 +49,7 @@ body{
 
 .landing-pg-job-title{
     position: relative;
-    animation: title;
+    animation: landing-page-title;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
@@ -223,6 +230,10 @@ body{
 /* ABOUT PAGE */
 .page-title{
     text-align: center;
+    opacity: 0;
+    animation: sub-page-title;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
 .about-info{
     padding: 40px;
@@ -243,6 +254,28 @@ body{
     padding-left: 15px;
 
 }
+
+/* PROJECTS PAGE */
+.projects-container{
+    border: 1px solid green;
+}
+
+.projects-row{
+    border: 3px solid red;
+}
+
+.projects-col{
+    border: 3px dotted blue;
+    text-align: center;
+}
+
+.pic{
+    width: 45%;
+}
+
+
+
+
 
 
 
@@ -297,7 +330,7 @@ body{
     }
 }
 
-@keyframes title{
+@keyframes landing-page-title{
     0%{
        opacity: 0.2;
        left: -350px;
@@ -312,6 +345,15 @@ body{
     0%{
         opacity: 0;
       
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes sub-page-title{
+    0%{
+        opacity: 0;
     }
     100%{
         opacity: 1;

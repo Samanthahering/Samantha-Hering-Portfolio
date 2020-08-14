@@ -1,13 +1,13 @@
 import React from 'react'
 
-class Contact extends React.Component{
-    render(){
+const Contact = props => {
+   
         return(
             <div className='sub-landing-pgs'>
-                <h1>Contact Page!</h1>
+                <h1 className='page-title'>Contact Page!</h1>
             </div>
         )
     }
-}
+
 
 export default Contact
