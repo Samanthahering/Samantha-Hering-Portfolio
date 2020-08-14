@@ -1,11 +1,9 @@
 body{
     margin: 0;
-    height: 100%;
-    /* background-image: url('./flower-background.jpg');
+    /* height: 100%; */
+    background-color: #cdcdd0 !important;
     height: 100vh;
-    background-size: cover;
-    background-position: center;
-    padding: 0 20px; */
+    color: #827081 !important;
    
 }
 
@@ -23,22 +21,20 @@ body{
     color: #827081;
 }
 
-/* attempt with plain gray background */
-/* .sub-landing-pgs{
-    background-color: #cdcdd0;
-    height: 100vh;
+.sub-landing-pgs{
     padding-top: 70px;
-    color: #827081;
-} */
+}
 
-  .sub-landing-pgs{
+  /* .sub-landing-pgs{
     background-image: url('./flower-background.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
     padding-top: 70px;
     color: #827081; 
-}  
+    background-attachment: fixed;
+}   */
+
 
 .landing-pg-name{
     position: relative;
