@@ -9,8 +9,8 @@ class Home extends Component {
                 <h2 className='landing-pg-job-title'>Software Developer</h2>
             <Button className='landing-page-btn' variant="outline-secondary" size='lg'><a href='' target='_blank'>Resume</a></Button>
             <div className='icons'>
-                <a href='https://www.linkedin.com/in/samanthahering/' target='_blank'><i class="fab fa-linkedin"></i></a>
-                <a href='https://github.com/Samanthahering' target='_blank'><i class="fab fa-github"></i></a>
+                <a href='https://www.linkedin.com/in/samanthahering/'><i class="fab fa-linkedin"></i></a>
+                <a href='https://github.com/Samanthahering'><i class="fab fa-github"></i></a>
             </div>
         </div>
         )
