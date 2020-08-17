@@ -11,7 +11,7 @@ const Projects = props => {
                         <div className='col-md-6 projects-col'>
                             <h4>DevProz</h4>
                             <img className='projects-pic' src='dist/what-do-you-meme-project.png'/>
-                            <p className='project-paragraph'>A digital implementations of the card game 'What Do You Meme'</p>
+                            <p className='project-paragraph'>A digital implementation of the card game 'What Do You Meme'</p>
                             <Button className='landing-page-btn' variant="outline-secondary"><a href='' target='_blank'>Live</a></Button>
                             <Button className='landing-page-btn' variant="outline-secondary"><a href='' target='_blank'>Github</a></Button>
                         </div>

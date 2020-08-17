@@ -262,27 +262,27 @@ body{
 
 /* PROJECTS PAGE */
 .projects-container{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin-top: 2%;
 }
 
 .projects-row{
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 
 .projects-col{
-    border: 3px dotted blue;
+    /* border: 3px dotted blue; */
     text-align: center;
-    padding: 15px;
+    padding: 25px;
 }
 
 .projects-pic{
     width: 100%;
-    padding-bottom: 10px;
+    padding: 20px 40px
 }
 
 .project-paragraph{
-    font-size: 1.2rem;
+    font-size: 1.15rem;
 }
 
 
