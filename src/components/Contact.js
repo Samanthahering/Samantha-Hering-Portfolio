@@ -18,11 +18,6 @@ const Contact = props => {
                 <i class="far fa-envelope"></i>
                 <p>samanthahering11@gmail.com</p>
                 </div>
-                
-                
-
-                
-
                 <Copyright/>
             </div>
         )
