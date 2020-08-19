@@ -326,6 +326,23 @@ hr{
     font-size: 1.15rem;
 }
 
+/* CONTACT PAGE */
+.contact-page-info{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.fas{
+    font-size: 1.5rem;
+    padding-right: 12px;
+}
+
+.far{
+    font-size: 1.5rem;
+    padding-right: 12px;
+}
+
 
 
 
