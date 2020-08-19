@@ -1,4 +1,5 @@
 import React from 'react'
+import Copyright from './Copyright-Footer'
 import { Button } from 'react-bootstrap'
 
 const Projects = props => {
@@ -45,6 +46,7 @@ const Projects = props => {
                     </div>
 
                 </div>
+                <Copyright/>
             </div>
         )
     }

@@ -12,6 +12,9 @@ class Home extends Component {
                 <a href='https://www.linkedin.com/in/samanthahering/'><i class="fab fa-linkedin"></i></a>
                 <a href='https://github.com/Samanthahering'><i class="fab fa-github"></i></a>
             </div>
+            <div className='landing-page-copyright'>
+            <p>Copyright © Samantha Hering 2020</p>
+        </div>
         </div>
         )
     }

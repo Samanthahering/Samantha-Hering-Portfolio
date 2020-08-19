@@ -83,6 +83,20 @@ body{
     cursor: pointer;
 }
 
+.landing-page-copyright{
+    position: absolute;
+    bottom: 0;
+    font-size: 0.8rem;
+}
+
+.sub-pages-copyright{
+    padding-top: 25px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+
+
 /* NAVBAR */
 .navbar-header{
     position: fixed;
@@ -217,7 +231,7 @@ body{
 .exit-btn{
     position: fixed;
     right: 3%;
-    top: 1% 
+    top: 8% 
 }
 
 .close-x{
@@ -311,7 +325,6 @@ hr{
 .project-paragraph{
     font-size: 1.15rem;
 }
-
 
 
 

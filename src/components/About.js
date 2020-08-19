@@ -1,4 +1,5 @@
 import React from 'react';
+import Copyright from './Copyright-Footer'
 
 
 const About = props => {
@@ -38,6 +39,7 @@ const About = props => {
                         </div> 
                         <img className='picture-of-code-icon' src='dist/code-icon.png' alt='Picture of Code Icon'></img>
                     </div>
+                    <Copyright/>
             </div>
         )
     }
