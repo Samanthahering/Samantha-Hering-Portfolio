@@ -1,5 +1,4 @@
 import React from 'react'
-import Copyright from './Copyright-Footer'
 
 const Contact = props => {
    
@@ -18,7 +17,13 @@ const Contact = props => {
                 <i class="far fa-envelope"></i>
                 <p>samanthahering11@gmail.com</p>
                 </div>
-                <Copyright/>
+                <div className='contact-page-info-links'>
+                <a href='https://www.linkedin.com/in/samanthahering/'><i class="fab fa-linkedin"></i></a>
+                <a href='https://github.com/Samanthahering'><i class="fab fa-github"></i></a>
+                </div>
+                <div className='contact-page-copyright'>
+            <p>Copyright © Samantha Hering 2020</p>
+        </div>
             </div>
         )
     }

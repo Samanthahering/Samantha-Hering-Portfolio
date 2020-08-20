@@ -115,6 +115,7 @@ body{
 .navbar-logo{
     margin-left: 1rem;
     font-size: 1.1rem;
+    font-weight: 600;
 }
 
 .navbar-logo a{
@@ -333,6 +334,12 @@ hr{
     padding: 20px;
 }
 
+.contact-page-info-links{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px 20px 20px;
+}
+
 .fas{
     font-size: 1.5rem;
     padding-right: 12px;
@@ -341,6 +348,14 @@ hr{
 .far{
     font-size: 1.5rem;
     padding-right: 12px;
+}
+
+.contact-page-copyright{
+    position: absolute;
+    bottom: 0;
+    font-size: 0.8rem;
+    left: 50%;
+    transform: translateX(-50%); 
 }
 
 
