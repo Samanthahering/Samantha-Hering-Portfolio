@@ -23,7 +23,6 @@ module.exports = {
     },
     devServer: {
         historyApiFallback: true,
-        host: server_host,
         port: server_port
     },
     plugins: [
