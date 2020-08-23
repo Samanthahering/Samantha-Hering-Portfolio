@@ -1,5 +1,7 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const server_port = process.env.PORT || 5000;
+const server_host = "0.0.0.0";
 
 module.exports = {
     entry: './src/index.js',
@@ -21,7 +23,8 @@ module.exports = {
     },
     devServer: {
         historyApiFallback: true,
-        host: "0.0.0.0"
+        host: server_host,
+        port: server_port
     },
     plugins: [
         new HtmlWebpackPlugin({
