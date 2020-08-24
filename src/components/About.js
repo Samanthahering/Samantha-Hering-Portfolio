@@ -37,7 +37,7 @@ const About = props => {
                                     </ul>
                                 </div>
                         </div> 
-                        <img className='picture-of-code-icon' src='/dist/code-icon.png' alt='Picture of Code Icon'></img>
+                        <img className='picture-of-code-icon' src='../dist/code-icon.png' alt='Picture of Code Icon'></img>
                     </div>
                     <Copyright/>
             </div>
