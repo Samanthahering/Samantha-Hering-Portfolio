@@ -12,7 +12,7 @@ const Projects = props => {
                         <div className='col-md-6 projects-col'>
                             <h4>DevProz</h4>
                             <h5>(Full Stack Application)</h5>
-                            <img className='projects-pic' src='dist/what-do-you-meme-project.png'/>
+                            <img className='projects-pic' src='/what-do-you-meme-project.png'/>
                             <p className='project-paragraph'>A digital implementation of the card game 'What Do You Meme'</p>
                             <Button className='landing-page-btn' variant="outline-secondary"><a href='https://devproz.herokuapp.com/'>Live</a></Button>
                             <Button className='landing-page-btn' variant="outline-secondary"><a href='https://github.com/DevProz/DevProz'>Github</a></Button>
@@ -20,7 +20,7 @@ const Projects = props => {
                         <div className='col-md-6 projects-col'>
                             <h4>Never Bored</h4>
                             <h5>(Full Stack Application)</h5>
-                            <img className='projects-pic' src='dist/never-bored-project.png'/>
+                            <img className='projects-pic' src='never-bored-project.png'/>
                             <p className='project-paragraph'>A mock ecommerce site that sells board games</p>
                             <Button className='landing-page-btn' variant="outline-secondary"><a href='http://never-bored-games.herokuapp.com/'>Live</a></Button>
                             <Button className='landing-page-btn' variant="outline-secondary"><a href='https://github.com/2004GraceShopper/GraceShopper'>Github</a></Button>
