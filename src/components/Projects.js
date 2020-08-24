@@ -20,7 +20,7 @@ const Projects = props => {
                         <div className='col-md-6 projects-col'>
                             <h4>Never Bored</h4>
                             <h5>(Full Stack Application)</h5>
-                            <img className='projects-pic' src='never-bored-project.png'/>
+                            <img className='projects-pic' src='/never-bored-project.png'/>
                             <p className='project-paragraph'>A mock ecommerce site that sells board games</p>
                             <Button className='landing-page-btn' variant="outline-secondary"><a href='http://never-bored-games.herokuapp.com/'>Live</a></Button>
                             <Button className='landing-page-btn' variant="outline-secondary"><a href='https://github.com/2004GraceShopper/GraceShopper'>Github</a></Button>
@@ -30,7 +30,7 @@ const Projects = props => {
                         <div className='col-md-6 projects-col'>
                             <h4>Support Group</h4>
                             <h5>(Volunteer Work)</h5>
-                            <img className='projects-pic' src='dist/grief-support-project.png'/>
+                            <img className='projects-pic' src='/grief-support-project.png'/>
                             <p className='project-paragraph'>A resource center for grief support</p>
                             <Button className='landing-page-btn' variant="outline-secondary"><a href='http://www.johnsantoscharitableorganization.org/'>Live</a></Button>
                             <Button className='landing-page-btn' variant="outline-secondary"><a href='https://github.com/Samanthahering/Support-Group'>Github</a></Button>
@@ -38,7 +38,7 @@ const Projects = props => {
                         <div className='col-md-6 projects-col'>
                             <h4>Timnastics</h4>
                             <h5>(Volunteer Work)</h5>
-                            <img className='projects-pic' src='dist/timnastics-project.png'/>
+                            <img className='projects-pic' src='/timnastics-project.png'/>
                             <p className='project-paragraph'>A site for freelance gymnastics coaching</p>
                             <Button className='landing-page-btn' variant="outline-secondary"><a href='https://timnastics.com/index.html'>Live</a></Button>
                             <Button className='landing-page-btn' variant="outline-secondary"><a href='https://github.com/Samanthahering/Timnastics'>Github</a></Button>
